@@ -15,14 +15,14 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?php echo base_url('asset/lib/bootstrap/css/bootstrap.min.css')?>" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="<?php echo base_url('asset/lib/font-awesome/css/font-awesome.min.css')?>" rel="stylesheet">
+  <link href="<?php echo base_url('asset/lib/animate/animate.min.css')?>" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="<?php echo base_url('asset/css/style.css')?>" rel="stylesheet">
 
 </head>
 
@@ -295,21 +295,21 @@
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/counterup/counterup.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="<?php echo base_url('asset/lib/jquery/jquery.min.js')?>"></script>
+  <script src="<?php echo base_url('asset/lib/jquery/jquery-migrate.min.js')?>"></script>
+  <script src="<?php echo base_url('asset/lib/bootstrap/js/bootstrap.bundle.min.js')?>"></script>
+  <script src="<?php echo base_url('asset/lib/easing/easing.min.js')?>"></script>
+  <script src="<?php echo base_url('asset/lib/wow/wow.min.js')?>"></script>
+  <script src="<?php echo base_url('asset/lib/waypoints/waypoints.min.js')?>"></script>
+  <script src="<?php echo base_url('asset/lib/counterup/counterup.min.js')?>"></script>
+  <script src="<?php echo base_url('asset/lib/superfish/hoverIntent.js')?>"></script>
+  <script src="<?php echo base_url('asset/lib/superfish/superfish.min.js')?>"></script>
 
   <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+  <script src="<?php echo base_url('asset/contactform/contactform.js')?>"></script>
 
   <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+  <script src="<?php echo base_url('asset/js/main.js')?>"></script>
   
   <script>
         /* when jQuery laods */

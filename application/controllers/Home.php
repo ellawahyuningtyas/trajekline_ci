@@ -7,7 +7,7 @@ class Home extends CI_Controller{
     }
         
     public function index (){
-        $this->load->view('Home_view');
+        $this->template_customer->views('Home_view');
         
     }
 }
